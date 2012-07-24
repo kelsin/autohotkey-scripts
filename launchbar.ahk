@@ -14,7 +14,7 @@ RunOrActivate(program, title)
 }
 
 ^!Enter::
-  InputBox UserInput, Command
+  InputBox UserInput, Command, , 50, 150
   If ErrorLevel
 	Return
   Else {
